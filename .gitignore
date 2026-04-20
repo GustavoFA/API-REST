@@ -1,1 +1,4 @@
 .venv_rest/
+__pycache__/
+*.py[cod]
+*$py.class
