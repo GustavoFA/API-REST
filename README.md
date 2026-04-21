@@ -1,5 +1,9 @@
 # API REST 
 
+## Dataset
+
+I'm using a ecommerce dataset from Kaggle. To download the dataset use ```download_data.sh```.
+
 ## FastAPI
 
 ```curl -X POST -H "Content-Type: application/json" 'http://127.0.0.1:8000/items?item=ok'``` 
