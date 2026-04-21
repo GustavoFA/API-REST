@@ -1,6 +1,5 @@
 import pandas as pd
 from pathlib import Path
-# from typing import Dict
 
 DATA_PATH = Path('./data/data.csv')
 
