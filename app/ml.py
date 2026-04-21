@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, root_mean_squared_error
 
-from app.data_loader import load_data, clean_data, get_daily_sales
+from data_loader import load_data, clean_data, get_daily_sales
 
 def create_lag_features(daily_df: pd.DataFrame, n_lags: int = 3) -> pd.DataFrame:
     """
