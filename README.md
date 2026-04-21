@@ -6,9 +6,15 @@ I'm using a ecommerce dataset from Kaggle. To download the dataset use ```downlo
 
 ## FastAPI
 
-```curl -X POST -H "Content-Type: application/json" 'http://127.0.0.1:8000/items?item=ok'``` 
+To check the functions in terminal use the following commands:
 
-```curl -X GET http://127.0.0.1:8000/items/1```
+- ```curl http://127.0.0.1:8000/health```
+
+- ```curl http://127.0.0.1:8000/summary```
+
+- ```curl http://127.0.0.1:8000/sales/daily```
+
+## Project Structure
 
 ecommerce_forecast_api/
 ├── app/
