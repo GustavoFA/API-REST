@@ -13,3 +13,13 @@ class SummaryResponse(BaseModel):
 class DailySalesItem(BaseModel):
     date: str
     revenue: float
+
+class TrainResponse(BaseModel):
+    model_name: str
+    mae: float
+    rmse: float
+    n_lags: int
+
+class ForecastItem(BaseModel):
+    date: str
+    predicted_revenue: float
