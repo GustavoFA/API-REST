@@ -16,6 +16,7 @@ To check the functions in terminal use the following commands:
 
 ## Project Structure
 
+```
 ecommerce_forecast_api/
 ├── app/
 │   ├── main.py
@@ -25,3 +26,4 @@ ecommerce_forecast_api/
 ├── data/
 │   └── data.csv
 ├── requirements.txt
+```
